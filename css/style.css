@@ -226,6 +226,7 @@
 /* portfolio  start*/
 .portfolio{
     margin-top:100px;
+    margin-bottom:800px;
 }
 .port-text>h4{
     color: #F00;
@@ -243,15 +244,30 @@
 }
 .port-img{
     display: flex;
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
     margin: 20px;
     justify-content: space-between;
+    gap:20px;
+    line-height:40px;
 }
 /* portfolio end */
 
 /* sub start */
 .sub{
     background-color:rgba(255, 0, 0, 0.05);
-    margin-top: 60px;
+    margin-top:180px;
+    padding: 100px;
+    text-align: center;
+}
+.sub>h1{
+   
+}
+.sub>p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+}
+.sub>button{
+    padding: 20px 280px;
 }
