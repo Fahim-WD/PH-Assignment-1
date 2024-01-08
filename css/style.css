@@ -222,3 +222,36 @@
     bottom: 20px;
 }
 /* discount end */
+
+/* portfolio  start*/
+.portfolio{
+    margin-top:100px;
+}
+.port-text>h4{
+    color: #F00;
+    font-family: 'Inter', sans-serif;      
+}
+.port-text>h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+.port-text>p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    line-height: 30px;
+}
+.port-img{
+    display: flex;
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    justify-content: space-between;
+}
+/* portfolio end */
+
+/* sub start */
+.sub{
+    background-color:rgba(255, 0, 0, 0.05);
+    margin-top: 60px;
+}
