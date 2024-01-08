@@ -249,7 +249,50 @@
     margin: 20px;
     justify-content: space-between;
     gap:20px;
-    line-height:40px;
+    line-height:40px;   
+}
+
+.y-bag{
+    transform: translateY(0);
+    transition: 0.5s;
+}
+.y-bag:hover{
+    transform: translateY(-40px);
+}
+.white{
+    transform: translateY(0);
+    transition: 0.5s;
+}
+.white:hover{
+    transform: translateY(-40px);
+}
+.bag{
+    transform: translateY(0);
+    transition: 0.5s;
+}
+.bag:hover{
+    transform: translateY(-40px);
+}
+.sunglass{
+    transform: translateY(0);
+    transition: 0.5s;
+}
+.sunglass:hover{
+    transform: translateY(-40px);
+}
+.shoo{
+    transform: translateY(0);
+    transition: 0.5s;
+}
+.shoo:hover{
+    transform: translateY(-40px);
+}
+.curi{
+    transform: translateY(0);
+    transition: 0.5s;
+}
+.curi:hover{
+    transform: translateY(-40px);
 }
 /* portfolio end */
 
