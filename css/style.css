@@ -372,4 +372,12 @@ footer{
 .line{
     border: 1px solid rgba(255, 255, 255, 0.15);
 }
+.footer-left>p{
+    position: relative;
+}
+.footer-left>i{
+    position: absolute;
+    right:300px;
+    width: 15px;
+}
 /* footer end */
