@@ -54,5 +54,115 @@
 .offer>img{
     width:900px;
     height: 500px;
+    margin-top:20px;
+}
+/* offer end */
+
+/*  card start */
+.card{
+    background-image: url(../images/card-bg.png);
+    padding: 150px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:space-between;
+    margin-top:80px;
+}
+.card-text>h1{
+    color: #fff;
+    font-size: 50px;
+    letter-spacing:6px;
+    font-family: 'Merriweather', serif;
+    font-weight:700;
+
+}
+.card-text>p{
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.card-text>button{
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    background:transparent;
+    border:transparent;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    padding-top: 10px;
+}
+/* card end */
+
+/* time start */
+.time{
+        background:linear-gradient(to top, rgba(204, 195, 201, 0.5),rgba(255, 0, 140, 0.212));
+        padding: 100px;
+        text-align: center; 
+         
+}
+.time-text>h3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:24px;
+    color:black;
+    justify-content: center;
+}
+.tag{
+    color: red;
+}
+.time>button{
+    text-transform: uppercase;
+    background-color: #F00;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    padding: 15px 20px;
+    border: transparent;
+    border-radius: 5px;
+    font-size:15px;
     margin-top: 20px;
 }
+/*time end*/
+
+/* party start */
+.party{
+    margin-top:80px;
+    display: flex;
+    justify-content: space-between;
+}
+.party-left h3{
+    color: #F00;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.party-left>h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+.party-left>p{
+    color: rgba(7, 2, 17, 0.60);
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.party-mid>img{
+    border: 10px solid red;
+    padding: 20px;
+    border-radius: 50%;
+    height: 280px;
+}
+.party-right>h1{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size:30px;
+}
+.party-right>p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
